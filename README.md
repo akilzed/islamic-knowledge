@@ -93,7 +93,7 @@ Prasyarat:
 Langkah-langkah:
 
 1. Clone repository
-   git clone https://github.com/Akil/islamic-knowledge-uas.git
+   git clone https:[//github.com/akilzed/islamic-knowledge.git](https://github.com/akilzed/islamic-knowledge.git)
    cd islamic-knowledge-uas
 
 2. Install dependensi
@@ -136,8 +136,9 @@ IDENTITAS
 =========
 
 Nama           : Akil
+NIM            : 2405010004
 Mata Kuliah    : Kerangka Kerja Pengembangan Antarmuka Website (KKPAW)
-Tugas          : UAS Semester Genap 2024/2025
+Tugas          : UAS Semester Genap 
 
 
-(C) 2025 - Akil
+(C) 2026 - Akil
