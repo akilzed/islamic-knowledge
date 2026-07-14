@@ -1,4 +1,4 @@
-ISLAMIC KNOWLEDGE APP - UAS KKPAW
+ISLAMIC KNOWLEDGE APP
 ==================================
 
 Aplikasi React JS untuk menampilkan hadits dari Islamic Knowledge API 
@@ -8,7 +8,7 @@ responsif menggunakan Bootstrap 5 bertema Islami.
 
 LIVE DEMO
 =========
-https://islamic-knowledge-uas-akil.netlify.app
+[https://islamic-knowledge.netlify.app](https://islamic-knowledge.netlify.app/)
 
 
 API YANG DIGUNAKAN
