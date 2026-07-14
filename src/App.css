@@ -1,0 +1,96 @@
+:root {
+  --islamic-green: #1a5e3a;
+  --islamic-gold: #c9a84c;
+  --islamic-dark: #0d3320;
+  --islamic-light: #f5f0e8;
+}
+
+body {
+  background-color: var(--islamic-light);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-islamic {
+  background: linear-gradient(135deg, var(--islamic-green), var(--islamic-dark));
+}
+
+.hadith-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  border-left: 4px solid var(--islamic-gold);
+}
+
+.hadith-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(26, 94, 58, 0.15);
+}
+
+.arabic-text {
+  font-size: 1.4rem;
+  line-height: 2;
+  direction: rtl;
+  font-family: 'Traditional Arabic', 'Scheherazade New', serif;
+}
+
+.hero-islamic {
+  background: linear-gradient(135deg, var(--islamic-green) 0%, #0a2f18 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-islamic::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(201, 168, 76, 0.1) 0%, transparent 70%);
+}
+
+.btn-gold {
+  background-color: var(--islamic-gold);
+  border-color: var(--islamic-gold);
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.btn-gold:hover {
+  background-color: #b8923a;
+  border-color: #b8923a;
+  color: #1a1a1a;
+}
+
+.btn-outline-gold {
+  border-color: var(--islamic-gold);
+  color: var(--islamic-gold);
+  font-weight: 600;
+}
+
+.btn-outline-gold:hover {
+  background-color: var(--islamic-gold);
+  color: #1a1a1a;
+}
+
+.note-card {
+  border-left: 4px solid #6c757d;
+  background-color: #fffef9;
+}
+
+.badge-api {
+  background-color: var(--islamic-green);
+}
+
+.badge-note {
+  background-color: #6c757d;
+}
+
+@media (max-width: 576px) {
+  .arabic-text {
+    font-size: 1.1rem;
+  }
+  .display-mobile {
+    font-size: 1.5rem;
+  }
+}
